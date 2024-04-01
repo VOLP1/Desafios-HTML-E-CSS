@@ -7,16 +7,23 @@ body{
     background-color: #89cda5;
     margin: 0px;
     padding: 0px;
-    font-family: 'android';
+    font-family: Arial, Verdana, Helvetica, sans_serif;
 }
 
 main{
     background-color: white;
-    text-align: center;
+    text-align: justify;
+    text-indent: 2em;
     min-width: 300px;
     max-width: 1000px;
     margin: auto;
     margin-bottom: 10px;
+    margin-top: -20px;
+    padding-bottom: 20px;
+    line-height: 2em;
+}
+main p{
+    padding: 20px;
 }
 header{
     background-image: linear-gradient(to bottom, #5CBE7D, #1A5A37);
@@ -24,6 +31,7 @@ header{
     padding: 10px;
 }
 header h1{
+    font-family: 'android';
     text-align: center;
     font-size: 2em;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.400);
@@ -49,3 +57,64 @@ nav a{
 }
 
 
+h3{
+    font-family: 'android';
+    color: #1A5A37 ;
+    background-image: linear-gradient(to right, #89CDA5, transparent);
+    border-radius: 10px 0px 0px 10px;
+    padding: 2px;
+    margin-left: 20px;
+    text-align: left;
+    padding-left: 10px;
+    font-weight: bold;
+    font-size: 1.5em;
+    
+}
+
+a{
+    text-decoration: none;
+    color: #1A5A37;
+    font-weight: bold;
+}
+
+img{
+    display: block;
+    margin: auto;
+}
+
+iframe{
+    margin: auto;
+}
+
+aside{
+    background-color:#89b598 ;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+aside h4{
+    border-radius: 5px 5px 0px 0px;
+    background-color: #2FA866;
+    color: white;
+    font-size: 1em;
+    padding: 10px;
+    margin: -20px -20px 25px -20px;
+}
+
+aside p{
+    padding-bottom: 20px;
+}
+aside>ul{
+    list-style-type: '\2714\00a0\00a0';
+    list-style-position: inside;
+    columns: 2;
+    padding: 30px;
+}
+
+.footer{
+    text-align: center;
+    background-color: #1A5A37;
+    color: white;
+    padding: 10px;
+    margin-bottom: -10px;
+}
