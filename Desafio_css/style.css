@@ -14,7 +14,7 @@ main{
     background-color: white;
     text-align: justify;
     text-indent: 2em;
-    min-width: 300px;
+    min-width: 280px;
     max-width: 1000px;
     margin: auto;
     margin-bottom: 10px;
@@ -27,7 +27,7 @@ main p{
 }
 header{
     background-image: linear-gradient(to bottom, #5CBE7D, #1A5A37);
-    height: 110px;
+    
     padding: 10px;
 }
 header h1{
@@ -45,6 +45,20 @@ header p{
     color: white;
     padding-bottom: 10px;
 }
+
+a{
+    text-decoration: none;
+    color: #1A5A37;
+    font-weight: bold;
+}
+a::after{
+    content: '🔗';
+}
+a:hover{
+    color: #89CDA5;
+    background-color: #1A5A37;
+}
+
 nav{
     background-color: #1A5A37 ;
     padding: 10px;
@@ -54,6 +68,14 @@ nav a{
     padding: 10px;
     text-decoration: none;
     font-weight: bold;
+}
+nav a:hover{
+    background-color: #89CDA5;
+    color: #1A5A37;
+    border-radius: 10px;
+}
+nav a::after{
+    content: '';
 }
 
 
@@ -71,15 +93,11 @@ h3{
     
 }
 
-a{
-    text-decoration: none;
-    color: #1A5A37;
-    font-weight: bold;
-}
 
 img{
     display: block;
     margin: auto;
+    width: 90%;
 }
 
 iframe{
