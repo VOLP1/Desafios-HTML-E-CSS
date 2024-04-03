@@ -33,6 +33,9 @@ div.branca{
     background-color: white;
     color: black;
 }
+div.transparente{
+    box-shadow:  inset 15px 28px 25px rgba(0, 0, 0, 0.400);
+}
 div#joaninha{
     background: rgba(52, 51, 51, 0) url('imagens/background001.jpg') center right no-repeat fixed ;
     background-size: cover;
