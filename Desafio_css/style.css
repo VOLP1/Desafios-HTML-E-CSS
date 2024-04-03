@@ -8,6 +8,7 @@ body{
     margin: 0px;
     padding: 0px;
     font-family: Arial, Verdana, Helvetica, sans_serif;
+    
 }
 
 main{
@@ -27,7 +28,6 @@ main p{
 }
 header{
     background-image: linear-gradient(to bottom, #5CBE7D, #1A5A37);
-    
     padding: 10px;
 }
 header h1{
@@ -102,6 +102,8 @@ img{
 
 iframe{
     margin: auto;
+    display: block;
+    width: 80%;
 }
 
 aside{
